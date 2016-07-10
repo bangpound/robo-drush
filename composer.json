@@ -20,5 +20,10 @@
     "require-dev": {
         "phpunit/phpunit": "~4.4",
         "drush/drush": "~6.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "3.0.x-dev"
+        }
     }
 }
