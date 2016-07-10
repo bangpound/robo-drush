@@ -237,11 +237,11 @@ class DrushStack extends CommandStack
      * @param string $name cache name
      * @return $this
      */
-    public function clearCache($name = 'all')
+    public function clearCache()
     {
         $this->printTaskInfo('Clear cache');
 
-        return $this->exec('cc ' . $name);
+        return $this->exec('cr');
     }
 
     /**
